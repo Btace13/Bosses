@@ -17,12 +17,15 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
-
+html{
+	background: #DD0600;
+}
 	body {
 		line-height: 1;
 
@@ -1794,7 +1797,7 @@
 /* Section/Article */
 
 	section.special, article.special, header.special {
-		background: #662F00;
+		background: #fff;
 		text-align: center;
 	}
 
@@ -1829,12 +1832,12 @@
 		color: #fff;
 	}
 	header.major p {
-		color: #ccc;
+		color: #666;
 	}
 
 		header.major h2 {
 			font-size: 2.5em;
-			color: #fff;
+			color: #000;
 		}
 
 	header.narrow {
@@ -2884,7 +2887,7 @@ background-attachment: fixed;
 		}
 
 		.wrapper.style1 {
-			background-color: #2E0100;
+			background-color: #fff;
 			color: #fff;
 			letter-spacing: 1px;
 		}
@@ -2923,7 +2926,7 @@ background-attachment: fixed;
 			}
 
 			.wrapper.style1 .feature {
-				background-color: #222;
+				background-color: #920400;
 				border-radius: 10px;
 			}
 
